@@ -12,7 +12,7 @@ import { Navbar } from "./component/navbar.jsx";
 //render your react application
 ReactDOM.render(
 	<div>
-		<Navbar />
+		<Navbar />,
 		<Home />,
 	</div>,
 	document.querySelector("#app")
