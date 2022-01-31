@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Navbar = () => {
+export const Topnavbar = () => {
 	return (
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand text-white" href="#">
