@@ -7,6 +7,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export const Home = () => {
 	return (
 		<>
+			<br />
+			<br />
 			<div class="container">
 				<div class="mt-4 p-5  bg-light text-dark rounded">
 					<h1>Jumbotron Example</h1>
@@ -25,7 +27,7 @@ export const Home = () => {
 			<br />
 			<div class="container">
 				<div class="card-deck row">
-					<div class="col px-0 mx-2 card">
+					<div class="col-sm px-0 mx-2 g-5 card">
 						<img
 							class="card-img-top"
 							src="http://via.placeholder.com/500x325"
@@ -50,7 +52,7 @@ export const Home = () => {
 							</button>
 						</div>
 					</div>
-					<div class="col mx-2 px-0 card">
+					<div class="col-sm px-0 mx-2 g-5 card">
 						<img
 							class="card-img-top"
 							src="http://via.placeholder.com/500x325"
@@ -75,7 +77,7 @@ export const Home = () => {
 							</button>
 						</div>
 					</div>
-					<div class="col px-0 mx-2 card">
+					<div class="col-sm px-0 mx-2 g-5 card">
 						<img
 							class="card-img-top"
 							src="http://via.placeholder.com/500x325"
@@ -100,7 +102,7 @@ export const Home = () => {
 							</button>
 						</div>
 					</div>
-					<div class="col card mx-2 px-0">
+					<div class="col-sm px-0 mx-2 g-5 card">
 						<img
 							class="card-img-top"
 							src="http://via.placeholder.com/500x325"
@@ -127,6 +129,13 @@ export const Home = () => {
 					</div>
 				</div>
 			</div>
+			<br />
+			<br />
+			<nav class="navbar-nav w-100 position-absolute navbar-dark bg-dark text-center">
+				<a class="navbar-brand" href="#">
+					Copyright @ Your Website 2022
+				</a>
+			</nav>
 		</>
 	);
 };
